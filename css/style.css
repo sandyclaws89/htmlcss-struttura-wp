@@ -3,3 +3,49 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.pinkblock{
+    margin: 15px 15% 15px 15%  ;
+    background-color: #e579e6;
+    height: 100px;
+}
+
+.yellowblock {
+    margin: 15px 15% 15px 15%  ;
+    background-color: #e1d67a;
+    height: 300px;
+    float: ;
+}
+
+.lblueblock {
+    margin: 15px 15% 15px 15%  ;
+    background-color: #abcfe7;
+    height: 350px;
+}
+
+.lblueblock::after{
+    float: left;
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.lblueblock::after{
+    float: left;
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+.lblueblock::after{
+    height: 100%;
+    width: 20%;
+    background-color: yellow;
+}
+
+.purpleblock{
+    margin: 15px 15% 15px 15%  ;
+    background-color: #8800ff;
+    height: 50px;
+}

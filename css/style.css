@@ -7,20 +7,23 @@
 .pinkblock{
     margin: 15px 15% 15px 15%  ;
     background-color: #e579e6;
-    height: 100px;
+    height: 60px;
 }
 
 .yellowblock {
     margin: 15px 15% 15px 15%  ;
     background-color: #e1d67a;
-    height: 300px;
-    float: ;
+    height: 200px;
 }
 
 .lblueblock {
-    margin: 15px 15% 15px 15%  ;
+    margin-top: 15px;
+    margin-left: 15%;
+    margin-right: 15%;
     background-color: #abcfe7;
-    height: 350px;
+    height: 500px;
+    margin-bottom: 30px;
+    padding-top: 90px;
 }
 
 .lblueblock::after{
@@ -29,23 +32,48 @@
     display: table;
     clear: both;
 }
+.leftblock{
+    background-color: red;
+    border: solid #0087fd;
+    border-top: 10px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    width: 10%;
+    height: 50px;
+    display: inline-block;
+}
 
-.lblueblock::after{
+.centralblock::after{
     float: left;
     content: '';
     display: table;
     clear: both;
 }
+.centralblock{
+    background-color: green;
+    margin: 10px;
+    height: 250px;
+    width: 10%;
+    display: inline-block;
+}
 
-
-.lblueblock::after{
+.rightblock::after{
+    float: right;
+    content: '';
+    display: table;
+    clear: both;
+}
+.rightblock{
+    background-color: grey;
+    margin: 10px;
     height: 100%;
-    width: 20%;
-    background-color: yellow;
+    width: 10%;
+    display: inline-block;
 }
 
 .purpleblock{
-    margin: 15px 15% 15px 15%  ;
+    margin: 0 15% 0 15%  ;
     background-color: #8800ff;
     height: 50px;
 }
